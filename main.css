@@ -24,9 +24,9 @@ main {
     max-width: 1024px;
     margin: auto;
     margin-top: -50px;
-    border-left: 1px dashed gray;
-    border-right: 1px dashed gray;
-    border-bottom: 1px dashed gray;
+    border-left: 1px dashed rgb(44, 44, 44);
+    border-right: 1px dashed rgb(44, 44, 44);
+    border-bottom: 1px dashed rgb(44, 44, 44);
 }
 
 article {
@@ -74,8 +74,8 @@ header img,
 figure>img,
 #map {
     box-shadow:
-        0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        0 4px 8px 0 rgba(0, 0, 0, 0.289),
+        0 6px 20px 0 rgba(0, 0, 0, 0.289);
 }
 
 
