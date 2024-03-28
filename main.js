@@ -5,5 +5,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-var marker = L.circleMarker([-34.426769, 172.67751], { color: '#252850', fillColor: '#38caff', fillOpacity: '0.6' }).addTo(map);
+var marker = L.circleMarker([-34.426769, 172.67751], { color: '#252850', fillColor: '#fef5d4', fillOpacity: '0.6' }).addTo(map);
 marker.bindPopup("<b>Cape Reinga</b><br>Nördlichster Punkt von Neuseeland <br> GPS: -34.426769 172.67751").openPopup();
