@@ -306,5 +306,8 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
 }).addTo(map);
 
 
+//https://etherpad.wikimedia.org/p/webmapping.uibk
+
+
 
 
