@@ -2,8 +2,8 @@ let lat = -34.426769;
 let lng = 172.67751;
 let zoom = 15;
 
-let map = L.map('map', {
-    center: [lat, lng],
+let map = L.map('map', {   //Objekt Map der Klasse Leaflet, Bezeichnung 'map' als ID für Referenz
+    center: [lat, lng],  //Key: Wert [Array]
     zoom: zoom
 });
 
@@ -20,6 +20,11 @@ marker.bindPopup(`
         <li><b>Länge: ${lng.toFixed(5)}</b></li>
     </ul>
 `).openPopup();
+
+L.control.scale({     //Maßstab wird hinzugefügt
+    imperial:false,   //Nur Metrische Skala soll angezeigt werden
+    maxWidth: 150     //Länge des Maßstabes
+}).addTo(map);
 
 
 
