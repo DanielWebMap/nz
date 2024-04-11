@@ -12,8 +12,8 @@ let marker = L.circleMarker([-34.426769, 172.67751], { color: '#252850', fillCol
 marker.bindPopup(`
     <b>Cape Reinga</b><br>Nördlichster Punkt von Neuseeland 
     <ul>
-        <li><b>Breite: ${lat}</b></li>
-        <li><b>Länge: ${lng}</b></li>
+        <li><b>Breite: ${lat.toFixed(5)}</b></li>
+        <li><b>Länge: ${lng.toFixed(5)}</b></li>
     </ul>
 `).openPopup();
 
