@@ -2,7 +2,11 @@ let lat = -34.426769;
 let lng = 172.67751;
 let zoom = 15;
 
-let map = L.map('map').setView([lat, lng], zoom);
+let map = L.map('map', {
+    center: [lat, lng],
+    zoom: zoom
+});
+
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
